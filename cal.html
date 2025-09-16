@@ -8,18 +8,17 @@
 </head>
 <body>
     
-    <h2>Calculator sederhana</h2>
-    <input type ="number" id="angka1" placeholder="angka1">
-    <select" id="operator"></select>
-       <option value="+">+</option>
-       <option value="-">-</option>
-       <option value="*">*</option>
-       <option value="/">/</option>
+   <input type="text" id="angka1" placeholder="Masukkan angka 1" />
+    <select id="operator">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="/">/</option>
     </select>
-    <input type ="number" id="angka2" placeholder="angka2">
+    <input type="text" id="angka2" placeholder="Masukkan angka 2" />
     <button onclick="hitung()">Hitung</button>
 
-    <div id="hasil"></div>
+    <p id="hasil">Hasil: </p>
 
     <script src="cal.js"></script>
 </body>
